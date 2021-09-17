@@ -15,15 +15,20 @@
     height: 90px;
     width: 900px;
     background-color: gold;
+    display: flex;
+    justify-content: space-between;
 }
 #navright {
     height: 90px;
     width: 200px;
     background-color: grey;
+    justify-content: left;
 }
 .main {
     width: 80%;
     background-color: lightskyblue;
+    height: 1000px;
+    margin: auto;
 }
 
 
