@@ -1,2 +1,7 @@
 .container {background-color: hotpink;}
 
+#navbar {background-color: black;
+    height: 90px;
+    margin: 0px;
+}
+
