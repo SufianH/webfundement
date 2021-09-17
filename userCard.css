@@ -1,8 +1,32 @@
+
+
 .top {background-color: lightseagreen;
-
+        width: 706px;
+        height: 85px;
+        margin: auto;
 }
+ 
 
-.main {border-color: peru;
+.main {background-color: white;
+        width: 700px;
+        height: 250px;
+        margin: auto;
+        outline-style: solid;
+        outline-width: 3px;
+        outline-color: rgb(214, 210, 210);
+}
+h1 {margin-top: 0%;
+    padding-top: 50px;
+    padding-left: 25px;
+    margin-bottom: 0%;}
 
+h3 {margin: 0%;
+padding-left: 25px;}
+
+p {margin: 0%;
+padding-top: 10px;
+padding-left: 25px;}
+
+h5{padding-left: 25px;
 
 }
