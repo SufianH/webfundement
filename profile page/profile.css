@@ -22,7 +22,7 @@
     height: 90px;
     width: 200px;
     background-color: grey;
-    justify-content: left;
+    align-items: center;
 }
 .main {
     width: 80%;
