@@ -2,6 +2,17 @@
 
 #navbar {background-color: black;
     height: 90px;
-    margin: 0px;
+}
+#innernav {
+    width: 85%;
+    height: 90px;
+    margin: auto;
+    background-color: firebrick;
 }
 
+
+
+
+
+
+body {margin: 0px;}
