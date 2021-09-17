@@ -13,18 +13,21 @@
     height: 300px;
     width: 200px;
     background-color: blue;
+    margin-left: 20px;
 }
 .main {
     height: 400px;
     width: 700px;
     background-color: red;
-    margin-right: 30px;
+    margin-left: 220px;
+    margin-bottom: 10px;
 }
 .sub-content {
     height: 200px;
     width: 210px;
     background-color: yellow;
     display: inline-block;
+    margin: 10px;
 }
 #advertisement {
     height: 120px;
