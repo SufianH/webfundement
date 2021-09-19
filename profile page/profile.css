@@ -4,7 +4,7 @@
     height: 90px;
 }
 #innernav {
-    width: 80%;
+    width: 75%;
     height: 90px;
     margin: auto;
     background-color: firebrick;
@@ -24,18 +24,26 @@
     background-color: grey;
 }
 .main {
-    width: 80%;
+    width: 75%;
     background-color: lightskyblue;
     height: 1000px;
     margin: auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 #profile {
     background-color: white;
-    width: 100px;
-    height: 100px;
+    width: 800px;
+    height: 500px;
 }
 
+#requests {
+    background-color: yellowgreen;
+    width: 450px;
+    height: 300px;
+
+}
 
 
 body {margin: 0px;}
