@@ -7,7 +7,7 @@
     width: 75%;
     height: 90px;
     margin: auto;
-    background-color: firebrick;
+    background-color: black;
     display: flex;
     justify-content: space-between;
 }
@@ -31,10 +31,18 @@ ul li {
 #navright {
     height: 90px;
     width: 200px;
-    background-color: grey;
+    background-color:black;
     text-align: center;
 }
-button {margin-top: 35px;}
+button {
+    margin-top: 30px;
+    height: 30px;
+    width: 100px;
+    font-family: cursive;
+    font-size: large;
+    background-color: #17a2b8;
+    color: white;
+}
 
 .main {
     width: 1427px;
