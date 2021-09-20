@@ -13,37 +13,86 @@
 }
 #navleft {
     height: 90px;
-    width: 900px;
-    background-color: gold;
+    width: 800px;
+    background-color:black;
     display: flex;
     justify-content: space-between;
+    text-align: center;
+    margin: 0%;
+    font-family: cursive;
 }
+
+ul li {
+    list-style: none;
+    color: white;
+}
+
+
 #navright {
     height: 90px;
     width: 200px;
     background-color: grey;
+    text-align: center;
 }
+button {margin-top: 35px;}
+
 .main {
-    width: 75%;
+    width: 1427px;
     background-color: lightskyblue;
     height: 1000px;
     margin: auto;
-    display: flex;
     justify-content: space-between;
 }
 
 #profile {
     background-color: white;
-    width: 800px;
-    height: 500px;
+    width: 836px;
+    height: 600px;
+    margin-top: 34px;
+    margin-left: 4px;
+    display: inline-table;
+}
+#blue {
+    background-color: #17a2b8;
+    width: 836px;
+    height: 150px;
 }
 
 #requests {
     background-color: yellowgreen;
-    width: 450px;
-    height: 300px;
-
+    width: 550px;
+    height: 350px;
+    margin-left: 31px;
+    margin-top: 34px;
+    display: inline-table;
+    vertical-align: top;
+}
+#reqBLACK {
+    background-color: #333;
+    width: 550px;
+    height: 100px;
 }
 
+#education {
+    width: 836px;
+    height:400px;
+    background-color: cornflowerblue;
+    display: inline-table;
+    margin-left: 4px;
+    margin-top: 34px;
+}
+#edBLACK {
+    background-color: #333;
+    width: 836px;
+    height: 80px;
+}
+
+#connections {
+    width: 550px;
+    height: 100px;
+    background-color: darkorchid;
+    display: inline-table;
+    margin-left: 31px;
+}
 
 body {margin: 0px;}
