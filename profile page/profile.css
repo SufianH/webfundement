@@ -1,4 +1,4 @@
-.container {background-color: hotpink;}
+.container {background-color: white;}
 
 #navbar {background-color: black;
     height: 90px;
@@ -46,7 +46,7 @@ button {
 
 .main {
     width: 1427px;
-    background-color: lightskyblue;
+    background-color: white;
     height: 1000px;
     margin: auto;
     justify-content: space-between;
@@ -57,43 +57,150 @@ button {
     width: 836px;
     height: 600px;
     margin-top: 34px;
-    margin-left: 4px;
+    margin-left: 0px;
     display: inline-table;
+    border-style: solid;
+    border-color: #cfcfcf;
 }
+#profile h1 {
+    font-family: cursive;
+    margin-left: 30px;
+}
+#profile p {
+    font-family: cursive;
+    margin-left: 30px;
+}
+#gear {
+    font-family: cursive;
+    margin-left: 30px;
+}
+#gear img{
+    width: 20px;
+    height: 20px;
+}
+
 #blue {
     background-color: #17a2b8;
     width: 836px;
     height: 150px;
 }
+#jane img { 
+    width: 130px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #dbdbdb;
+    position: relative;
+    bottom: 70px;
+    left: 30px;
+}
+#map {
+    display: flex;
+    margin-left: 30px;
+}
+#map h2 {
+    margin-left: 20px;
+    font-family: cursive;
+}
+
+#map img{
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+}
 
 #requests {
-    background-color: yellowgreen;
+    background-color: white;
     width: 550px;
     height: 350px;
-    margin-left: 31px;
+    margin-left: 25px;
     margin-top: 34px;
     display: inline-table;
     vertical-align: top;
+    border-style: solid;
+    border-color: #cfcfcf;
 }
 #reqBLACK {
     background-color: #333;
     width: 550px;
     height: 100px;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: cursive;
+}
+#reqBLACK h3 {
+    border-radius: 50%;
+    background-color:#cccc;
+    width: 25px;
+    height: 25px;
+    color:black;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+#reqBLACK p {
+    margin-top: 30px;
+    font-size: large;
+}
+#todd {
+    display: flex;
+    margin-top: 25px;
+    font-family: cursive;
+}
+#todd img{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-style: solid;
+    border-color: #cfcfcf;
+}
+#phil {
+    display: flex;
+    margin-top: 25px;
+    font-family: cursive;
+}
+#phil img{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-style: solid;
+    border-color: #cfcfcf;
+}
+
+.accept{
+    margin-left: 50px;
 }
 
 #education {
     width: 836px;
     height:400px;
-    background-color: cornflowerblue;
+    background-color: white;
     display: inline-table;
-    margin-left: 4px;
-    margin-top: 34px;
+    border-style: solid;
+    border-color: #cfcfcf;
+    font-family: cursive;
+    text-align: center;
 }
 #edBLACK {
     background-color: #333;
     width: 836px;
     height: 80px;
 }
+#edBLACK h3{
+    margin-top: 0%;
+    color: white;
+    font-family: cursive;
+    margin-left: 30px;
+    text-align: left;
+}
+#dec {
+    color: #b5b5b5;
+}
+
 
 #connections {
     width: 550px;
