@@ -1,4 +1,156 @@
 #container {
-    background-color: coral;
-    width: 75%;
+    background-color: white;
+    width: 1400px;
+    height: 2000px;
+    margin: auto;
+}
+
+#navbar {
+    background-color: #ccc;
+    width: 1400px;
+    height: 130px;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+#navbar button {
+    width: 80px;
+    height: 35px;
+    background-color: #2b79e4;
+    color: white;
+    font-family: cursive;
+    box-shadow: black;
+    margin-top: 50px;
+    font-size: 15px;
+    border-color: black;
+}
+
+#navbar input {
+    height: 40px;
+    width: 500px;
+    border-style: solid;
+    border-color: black;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 15px;
+    font-family: cursive;
+}
+
+#navbar h1 {
+    font-size: 50px;
+    font-family: cursive;
+}
+
+#middle {
+    display: flex;
+}
+
+#ninja{
+    width: 900px;
+    height: 1000px;
+    background-color:white;
+    font-family: cursive;
+    font-size: 25px;
+}
+
+#ninja1 {
+    width: 870px;
+    height: 330px;
+    background-color: blueviolet;
+    border-style: solid;
+    border-color: black;
+    margin-top: 30px;
+    display: flex;
+}
+
+#likes {
+    width: 300px;
+    height: 330px;
+    background-color: white;
+    text-align: center;
+}
+
+#likes button {
+    background-color: #ffd966;
+    width: 100px;
+    height: 35px;
+    font-family: cursive;
+    font-size: 15px;
+    border-color: black;
+}
+
+#jap {
+    width: 570px;
+    height: 330px;
+    background-color: white;
+    text-align: center;
+}
+
+#ninja2 {
+    width: 870px;
+    height: 330px;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    margin-top: 30px;
+    display: flex;
+}
+
+#likes2 {
+    width: 300px;
+    height: 330px;
+    background-color: white;
+    text-align: center;
+}
+
+#likes2 button {
+    background-color: #ffd966;
+    width: 100px;
+    height: 35px;
+    font-family: cursive;
+    font-size: 15px;
+    border-color: black;
+}
+
+#jap2 {
+    width: 570px;
+    height: 330px;
+    background-color: white;
+    text-align: center;
+}
+
+#dojonary{
+    width: 500px;
+    height: 400px;
+    background-color:white;
+}
+
+#content{
+    width: 485px;
+    height: 250px;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    margin-top: 30px;
+    margin-left: 10px;
+    font-family: cursive;
+}
+
+#content h2 {
+    margin-left: 50px;
+    font-size: 40px;
+}
+
+#content button {
+    background-color:#93c47d ;
+    border-color: black;
+    height: 40px;
+    width: 380px;
+    font-size: 25px;
+    margin-left: 50px;
+}
+
+body {
+    margin-top: 0px;
 }
