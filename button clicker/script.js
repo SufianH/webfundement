@@ -3,5 +3,9 @@ function alertmethod(){
 }
 
 function logoutmethod(element){
-        element.innerText = Logout;
+        element.innerText = "Logout";
+}
+
+function definition(element){
+    element.remove();
 }
